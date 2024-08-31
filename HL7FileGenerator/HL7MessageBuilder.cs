@@ -17,7 +17,7 @@ public class HL7MessageBuilder
     /// <returns></returns>
     public HL7MessageBuilder AddMSHSegment()
     {
-        message.AddSegmentMSH("", "", "", "", "", "ADT^A02", DateTime.Now.ToString("yyyyMMddHHmmss"), "P", "2.3");
+        message.AddSegmentMSH("", "", "", "", "", "ADT^A08", DateTime.Now.ToString("yyyyMMddHHmmss"), "P", "2.3.1");
         return this;
     }
 
